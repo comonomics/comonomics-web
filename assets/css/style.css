@@ -242,40 +242,7 @@ li {
 .slick-initialized .slick-slide {
     outline: 0
 }
-.nice-select {
-    line-height: 30px;
-    border: 1px solid #eaeaea;
-    height: 50px;
-    width: 100%;
-    color: #071112;
-    font-weight: 500;
-    text-transform: capitalize;
-    padding-top: 10px;
-    border-radius: 25px
-}
-.nice-select::after {
-    border-bottom: 2px solid #a3a3a3;
-    border-right: 2px solid #a3a3a3;
-    height: 7px;
-    right: 41px;
-    width: 7px
-}
-.nice-select .list {
-    width: 100%;
-    border-radius: 0
-}
-.nice-select.open .list {
-    width: 100%;
-    border-radius: 0
-}
-.nice-select .option {
-    color: #071112
-}
-.nice-select::placeholder {
-    color: #5E5E5E;
-    font-size: 16px;
-    font-weight: 400
-}
+
 .section-padding {
     padding-top: 120px;
     padding-bottom: 100px
@@ -2801,17 +2768,6 @@ li {
         padding: 80px 0 50px
     }
 }
-.mfp-bg {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1042;
-    overflow: hidden;
-    position: fixed;
-    background: #4A3600;
-    opacity: 0.6
-}
 .team-area .single-team .team-img::before {
     background: -moz-linear-gradient(top, rgba(1, 84, 247, 0) 0%, #302072 100%);
     background: -webkit-linear-gradient(top, rgba(1, 84, 247, 0) 0%, #302072 100%);
@@ -3671,95 +3627,22 @@ del {
 .default-select {
     height: 40px
 }
-.default-select .nice-select {
-    border: none;
-    border-radius: 0px;
-    height: 40px;
-    background: #f9f9ff;
-    padding-left: 20px;
-    padding-right: 40px
-}
-.default-select .nice-select .list {
-    margin-top: 0;
-    border: none;
-    border-radius: 0px;
-    box-shadow: none;
-    width: 100%;
-    padding: 10px 0 10px 0px
-}
-.default-select .nice-select .list .option {
-    font-weight: 300;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    line-height: 28px;
-    min-height: 28px;
-    font-size: 12px;
-    padding-left: 20px
-}
-.default-select .nice-select .list .option.selected {
-    color: #1f2b7b;
-    background: transparent
-}
-.default-select .nice-select .list .option:hover {
-    color: #1f2b7b;
-    background: transparent
-}
+
 .default-select .current {
     margin-right: 50px;
     font-weight: 300
 }
-.default-select .nice-select::after {
-    right: 20px
-}
+
 .form-select {
     height: 40px;
     width: 100%
 }
-.form-select .nice-select {
-    border: none;
-    border-radius: 0px;
-    height: 40px;
-    background: #f9f9ff;
-    padding-left: 45px;
-    padding-right: 40px;
-    width: 100%
-}
-.form-select .nice-select .list {
-    margin-top: 0;
-    border: none;
-    border-radius: 0px;
-    box-shadow: none;
-    width: 100%;
-    padding: 10px 0 10px 0px
-}
-.form-select .nice-select .list .option {
-    font-weight: 300;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-    line-height: 28px;
-    min-height: 28px;
-    font-size: 12px;
-    padding-left: 45px
-}
-.form-select .nice-select .list .option.selected {
-    color: #1f2b7b;
-    background: transparent
-}
-.form-select .nice-select .list .option:hover {
-    color: #1f2b7b;
-    background: transparent
-}
+
 .form-select .current {
     margin-right: 50px;
     font-weight: 300
 }
-.form-select .nice-select::after {
-    right: 20px
-}
+
 .mt-10 {
     margin-top: 10px
 }

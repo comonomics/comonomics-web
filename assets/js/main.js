@@ -152,11 +152,6 @@
       ],
     });
   }
-  /* 6. Nice Selectorp  */
-  var nice_Select = $("select");
-  if (nice_Select.length) {
-    nice_Select.niceSelect();
-  }
   //7. home Blog
   $(".blog-active").slick({
     dots: false,
@@ -221,31 +216,14 @@
     $("#mc_embed_signup").find("form").ajaxChimp();
   }
   mailChimp();
-  // 11 Pop Up Img
-  var popUp = $(".single_gallery_part, .img-pop-up");
-  if (popUp.length) {
-    popUp.magnificPopup({
-      type: "image",
-      gallery: {
-        enabled: true,
-      },
-    });
-  }
-  // 12 Pop Up Video
-  var popUp = $(".popup-video");
-  if (popUp.length) {
-    popUp.magnificPopup({
-      type: "iframe",
-    });
-  }
-  /* 13. counterUp*/
+  /* 10. counterUp*/
   $(".counter").counterUp({
     delay: 10,
     time: 3000,
   });
 })(jQuery);
 
-/* 14. Prompt */
+/* 11. Prompt */
 document.getElementById("register-btn").addEventListener("click", function () {
   alert("Registration Closed");
 });
